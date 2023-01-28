@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "homework-12-2-5"
+version = "0.1.0"
+description = ""
+authors = ["user <kosareva.karina2013@yandex.ru>"]
+readme = "README.md"
+packages = [{include = "homework_12_2_5"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
